@@ -21,6 +21,9 @@ languages:
         - name: About
           url: about/
           weight: 5
+        - name: Photography
+          url: photography/
+          weight: 7
         - name: Search
           url: search/
           weight: 10
@@ -36,6 +39,9 @@ languages:
         - name: Hakkımda
           url: about/
           weight: 5
+        - name: Fotoğrafçılık
+          url: photography/
+          weight: 7
         - name: Ara
           url: search/
           weight: 10
