@@ -14,8 +14,8 @@ languages:
     weight: 1
     menu:
       main:
-        - name: Archives
-          url: archives
+        - name: About
+          url: about/
           weight: 5
         - name: Search
           url: search
