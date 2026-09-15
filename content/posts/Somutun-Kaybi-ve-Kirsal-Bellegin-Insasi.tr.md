@@ -3,6 +3,8 @@ title: "Somutun Kaybı ve Kırsal Belleğin İnşası"
 author: "Alp Yağcıoğlu & Lara Çetinel"
 date: 2026-06-01
 draft: false
+aliases:
+  - "/posts/somutun-kaybi-ve-kirsal-bellegin-insasi/"
 categories: ["Sociology", "Political Ecology"]
 tags: ["Kırsal Bellek", "Mekân Sosyolojisi", "Post-Truth"]
 cover:
