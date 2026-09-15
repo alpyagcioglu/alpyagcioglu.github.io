@@ -1,0 +1,295 @@
+:root {
+    --gap: 24px;
+    --content-gap: 22px;
+    --nav-width: 1180px;
+    --main-width: 820px;
+    --radius: 14px;
+    --theme: #eaf4f2;
+    --entry: rgba(248, 252, 251, 0.92);
+    --primary: #103f4d;
+    --secondary: #52747a;
+    --tertiary: #acd4d1;
+    --content: #173e49;
+    --code-block-bg: #082632;
+    --code-bg: #d8ebe8;
+    --border: #9bc6c3;
+    --okeeffe-deep: #075b70;
+    --okeeffe-blue: #087d91;
+    --okeeffe-turquoise: #1499a2;
+    --okeeffe-water: #82c9c9;
+    --okeeffe-mist: #e8f2ef;
+    --okeeffe-lilac: #ddd3df;
+    --okeeffe-shadow: 0 18px 48px rgba(7, 91, 112, 0.14);
+    color-scheme: light;
+}
+
+:root[data-theme="dark"] {
+    --theme: #071f29;
+    --entry: rgba(11, 43, 53, 0.94);
+    --primary: #e3f3f1;
+    --secondary: #9bc7c6;
+    --tertiary: #174956;
+    --content: #d5e8e6;
+    --code-block-bg: #04161e;
+    --code-bg: #0b2a35;
+    --border: #245865;
+    --okeeffe-deep: #8fd4d4;
+    --okeeffe-blue: #55bdc4;
+    --okeeffe-turquoise: #63d0ce;
+    --okeeffe-water: #347f8a;
+    --okeeffe-mist: #0d303b;
+    --okeeffe-lilac: #56475b;
+    --okeeffe-shadow: 0 18px 52px rgba(0, 0, 0, 0.34);
+    color-scheme: dark;
+}
+
+html {
+    scrollbar-color: var(--okeeffe-water) var(--theme);
+}
+
+body,
+.list,
+[data-theme="dark"] .list {
+    background:
+        radial-gradient(circle at 15% 8%, color-mix(in srgb, var(--okeeffe-water) 20%, transparent), transparent 34rem),
+        linear-gradient(180deg, var(--theme) 0%, color-mix(in srgb, var(--theme) 88%, var(--okeeffe-lilac)) 100%);
+    background-attachment: fixed;
+}
+
+body {
+    font-family: "Avenir Next", "Segoe UI", sans-serif;
+}
+
+::selection {
+    color: #f5fbfa;
+    background: var(--okeeffe-blue);
+}
+
+.header {
+    position: relative;
+    z-index: 10;
+    background: color-mix(in srgb, var(--theme) 88%, transparent);
+    border-bottom: 1px solid color-mix(in srgb, var(--okeeffe-blue) 45%, transparent);
+    backdrop-filter: blur(14px);
+}
+
+.header::after {
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    left: 0;
+    height: 3px;
+    content: "";
+    background: linear-gradient(90deg, transparent, var(--okeeffe-turquoise), var(--okeeffe-blue), transparent);
+    opacity: 0.48;
+}
+
+.nav {
+    min-height: 66px;
+    line-height: 1.2;
+    align-items: center;
+}
+
+.logo a {
+    color: var(--okeeffe-deep);
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(20px, 2.4vw, 27px);
+    font-weight: 600;
+    letter-spacing: -0.025em;
+}
+
+.logo a img {
+    width: 34px;
+    height: 34px;
+    object-fit: cover;
+    object-position: center;
+    margin-inline-end: 10px;
+    background: #000;
+    border: 1px solid color-mix(in srgb, var(--okeeffe-turquoise) 68%, var(--border));
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--okeeffe-water) 18%, transparent);
+    transform: none;
+}
+
+#menu a,
+.lang-switch a {
+    color: var(--primary);
+}
+
+#menu a {
+    padding: 8px 2px 6px;
+    transition: color 160ms ease, border-color 160ms ease;
+}
+
+#menu a:hover,
+.lang-switch a:hover,
+.post-content a:hover {
+    color: var(--okeeffe-turquoise);
+}
+
+#menu .active {
+    color: var(--okeeffe-deep);
+    border-color: var(--okeeffe-turquoise);
+}
+
+button#theme-toggle {
+    color: var(--okeeffe-deep);
+}
+
+.main {
+    padding-top: 34px;
+}
+
+.home-artwork {
+    margin: 0 0 42px;
+}
+
+.home-artwork img {
+    display: block;
+    width: 100%;
+    height: auto;
+    background: var(--entry);
+    border: 1px solid color-mix(in srgb, var(--okeeffe-blue) 45%, var(--border));
+    box-shadow: var(--okeeffe-shadow);
+}
+
+.home-artwork figcaption {
+    margin-top: 11px;
+    color: var(--secondary);
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 13px;
+    font-style: italic;
+    text-align: right;
+}
+
+.home-artwork figcaption a {
+    color: inherit;
+    box-shadow: 0 1px 0 color-mix(in srgb, var(--okeeffe-blue) 55%, transparent);
+}
+
+.first-entry,
+.post-entry,
+.post-single {
+    background: var(--entry);
+    border: 1px solid var(--border);
+    box-shadow: 0 12px 34px rgba(7, 91, 112, 0.08);
+}
+
+.first-entry {
+    min-height: 0;
+    padding: clamp(22px, 4vw, 34px);
+    border-radius: calc(var(--radius) + 4px);
+}
+
+.post-entry {
+    transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+}
+
+.post-entry:hover {
+    border-color: color-mix(in srgb, var(--okeeffe-turquoise) 64%, var(--border));
+    box-shadow: var(--okeeffe-shadow);
+    transform: translateY(-3px);
+}
+
+.post-single {
+    margin-top: 8px;
+    padding: clamp(22px, 5vw, 48px);
+    border-radius: calc(var(--radius) + 4px);
+}
+
+.entry-header h1,
+.entry-header h2,
+.post-title,
+.page-header h1 {
+    color: var(--primary);
+    font-family: Georgia, "Times New Roman", serif;
+    letter-spacing: -0.018em;
+}
+
+.entry-header h2 {
+    color: var(--okeeffe-deep);
+}
+
+.post-content {
+    color: var(--content);
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.05rem;
+    line-height: 1.78;
+}
+
+.post-content a {
+    color: var(--okeeffe-blue);
+    box-shadow: 0 1px 0 color-mix(in srgb, var(--okeeffe-blue) 55%, transparent);
+}
+
+.post-content blockquote {
+    color: var(--secondary);
+    border-inline-start-color: var(--okeeffe-turquoise);
+}
+
+.entry-cover img {
+    border: 1px solid color-mix(in srgb, var(--okeeffe-water) 65%, var(--border));
+}
+
+.post-tags a {
+    color: var(--okeeffe-deep);
+    background: color-mix(in srgb, var(--okeeffe-water) 18%, var(--entry));
+    border-color: var(--border);
+}
+
+.breadcrumbs,
+.entry-footer,
+.post-meta,
+.footer {
+    color: var(--secondary);
+}
+
+.top-link,
+.pagination a {
+    color: #f4fbfa;
+    background: var(--okeeffe-deep);
+}
+
+@media (max-width: 760px) {
+    :root {
+        --gap: 18px;
+    }
+
+    .nav {
+        padding-top: 10px;
+    }
+
+    .logo,
+    #menu {
+        margin-right: var(--gap);
+        margin-left: var(--gap);
+    }
+
+    .logo a {
+        font-size: 18px;
+    }
+
+    .logo a img {
+        width: 30px;
+        height: 30px;
+        margin-inline-end: 7px;
+    }
+
+    .home-artwork {
+        margin-bottom: 32px;
+    }
+
+    .home-artwork figcaption {
+        font-size: 12px;
+    }
+
+    .post-single {
+        padding: 22px 18px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .post-entry {
+        transition: none;
+    }
+}

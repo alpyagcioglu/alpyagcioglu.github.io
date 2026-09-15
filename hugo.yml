@@ -60,6 +60,8 @@ outputs:
 params:
   description: "Deconstructing philosophy, literature and pop culture through an analytical lens."
   author: "Alp Yağcıoğlu"
+  images:
+    - "/images/site-avatar.png"
   defaultTheme: auto
   ShowReadingTime: true
   ShowShareButtons: true
@@ -71,7 +73,7 @@ params:
     enabled: false
     title: "Alp Yağcıoğlu"
     subtitle: "Computer Engineering Student @PoliTo | Carbon-based Individual"
-    imageUrl: "https://github.com/TheBoyWithDempseyRoll.png"
+    imageUrl: "/images/site-avatar.png"
     imageTitle: "Alp"
     imageWidth: 120
     imageHeight: 120
@@ -83,6 +85,14 @@ params:
 
   assets:
     disableHLJS: true
+    favicon: "/images/site-avatar.png"
+    favicon16x16: "/images/site-avatar.png"
+    favicon32x32: "/images/site-avatar.png"
+    apple_touch_icon: "/images/site-avatar.png"
+
+  label:
+    icon: "/images/site-avatar.png"
+    iconHeight: 34
 
 markup:
   goldmark:
