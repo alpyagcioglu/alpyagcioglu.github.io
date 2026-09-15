@@ -1,4 +1,4 @@
-baseURL: "https://TheBoyWithDempseyRoll.github.io/"
+baseURL: "https://alpyagcioglu.github.io/"
 title: "From Whale Island to the Pequod"
 theme: "PaperMod"
 
@@ -79,7 +79,7 @@ params:
     imageHeight: 120
     buttons:
       - name: GitHub
-        url: "https://github.com/TheBoyWithDempseyRoll"
+        url: "https://github.com/alpyagcioglu"
       - name: LinkedIn
         url: "https://www.linkedin.com/in/alp-yağcıoğlu-0335a9260/"
 

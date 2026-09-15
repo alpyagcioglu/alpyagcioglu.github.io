@@ -20,6 +20,6 @@ Görsel sanatlarla oldukça ilgiliyim. Özellikle mimariye ve görsel hikâye an
 
 Hayatımın şu aşamasında dil felsefesini tekrar çözümlemeye ve formülize etmeye çalışırken kullandığım enstrümanın beyin olduğunu fark edince tüm oklarımı beyne yönlendirdim.
 
-Bu blogu kurarken yararlandığım [GitHub](https://github.com/TheBoyWithDempseyRoll) hesabım burada. Beni ayrıca [LinkedIn](https://www.linkedin.com/in/alp-yağcıoğlu-0335a9260/) ve [Letterboxd](https://letterboxd.com/MiyataIchiro/) üzerinde bulabilirsiniz. Ulaşmak isterseniz [alpyagcioglu@proton.me](mailto:alpyagcioglu@proton.me) adresine yazabilirsiniz.
+Bu blogu kurarken yararlandığım [GitHub](https://github.com/alpyagcioglu) hesabım burada. Beni ayrıca [LinkedIn](https://www.linkedin.com/in/alp-yağcıoğlu-0335a9260/) ve [Letterboxd](https://letterboxd.com/MiyataIchiro/) üzerinde bulabilirsiniz. Ulaşmak isterseniz [alpyagcioglu@proton.me](mailto:alpyagcioglu@proton.me) adresine yazabilirsiniz.
 
 P.S. İtalya’nın Torino şehrinde yaşıyorum. Bana Türkçe, İngilizce veya İtalyanca ulaşabilirsiniz. Sonuncusu benim için de iyi bir İtalyanca pratiği olur.

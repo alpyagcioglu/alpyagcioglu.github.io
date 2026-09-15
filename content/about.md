@@ -20,6 +20,6 @@ I am also deeply interested in the visual arts, particularly architecture and vi
 
 At this point in my life, while trying to rethink and formalise the philosophy of language, I realised that the instrument I was using was the brain itself. Since then, I have turned all my attention towards the brain.
 
-The GitHub account I used while building this blog is [here](https://github.com/TheBoyWithDempseyRoll). You can also find me on [LinkedIn](https://www.linkedin.com/in/alp-yağcıoğlu-0335a9260/) and [Letterboxd](https://letterboxd.com/MiyataIchiro/). If you would like to get in touch, you can reach me at [alpyagcioglu@proton.me](mailto:alpyagcioglu@proton.me).
+The GitHub account I used while building this blog is [here](https://github.com/alpyagcioglu). You can also find me on [LinkedIn](https://www.linkedin.com/in/alp-yağcıoğlu-0335a9260/) and [Letterboxd](https://letterboxd.com/MiyataIchiro/). If you would like to get in touch, you can reach me at [alpyagcioglu@proton.me](mailto:alpyagcioglu@proton.me).
 
 P.S. I live in Turin, Italy. You are welcome to contact me in Turkish, English, or Italian. The latter would also be good practice for me.
